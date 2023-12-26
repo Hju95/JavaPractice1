@@ -8,7 +8,7 @@ public abstract class Car {
     public abstract void turnOff();
 
 
-    public void run() {
+    final public void run() {
         start();
         drive();
         stop();
